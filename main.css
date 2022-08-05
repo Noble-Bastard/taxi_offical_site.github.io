@@ -14,6 +14,7 @@ body {
    padding: 20px 10px;
 }
 
+
 .header a {
    float: left;
    color: black;
@@ -21,28 +22,46 @@ body {
    padding: 12px;
    text-decoration: none;
    font-size: 17px;
-   line-height: 25px;
-   border-radius: 5px;
 }
 
-.headera.logo {
-   font-size: 25px;
-   font-weight: bold;
-}
 
 .header a:hover {
    color: #700000;
-}
-
-.headera.active {
-   background-color: green;
-   color: white;
 }
 
 .header-right {
    margin-left: 200px;
 }
 
+.header #logo {
+   font-size: 20px;
+   color: #700000;
+   float: left;
+   padding: 12px;
+   text-align: center;
+}
+.main-text-and-title-icon {
+   display: block;
+   margin-left: 150px;
+   margin-top: 120px;
+}
+.main-title-icon{
+   float: left;
+   margin-left: 50px;
+   color:#700000;
+   margin-top: 70px;
+}
+.main-title-text {
+   float: left;
+   color: white;
+   margin-top: 70px;
+}
+.main-title-tag {
+   font-size: 50px;
+}
+.main-title-summary {
+   font-size: 20px;
+}
 @media screen and (max-width: 500px) {
    .header a {
       float: none;
